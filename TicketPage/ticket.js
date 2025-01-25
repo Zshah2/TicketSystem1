@@ -1,6 +1,6 @@
 // Check if the user is logged in
 if (!localStorage.getItem("loggedIn")) {
-    window.location.href = "../LoginPage/index.html"; // Redirect to login page if not logged in
+    window.location.href = "/index.html"; // Redirect to login page if not logged in
 }
 
 // Get references to DOM elements
